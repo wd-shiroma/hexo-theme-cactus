@@ -1,5 +1,5 @@
 ##############################################################################
-# Content
+ Content
 ##############################################################################
 
 # Link to a page that gives an overview of all your projects.
@@ -17,8 +17,8 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: projects_url
-
+  Products: /products/
+  projects: https://github.com/wd-shiroma
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
@@ -29,7 +29,7 @@ social_links:
   twitter: /
   facebook: /
   linkedin: /
-  mail: mailto:name@email.com
+  mail: /
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -41,7 +41,7 @@ tags_overview: true
 #   - post_count: whether to show only the x most recent posts.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
 
 
 ##############################################################################
@@ -92,7 +92,7 @@ favicon:
 colorscheme: dark
 
 # Maximal width of the page in rem units.
-page_width: 48
+page_width: 80
 
 
 ##############################################################################
@@ -100,7 +100,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss: true
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
@@ -132,4 +132,4 @@ baidu_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: name@email.com
+  email: 
